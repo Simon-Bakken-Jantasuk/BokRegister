@@ -7,5 +7,4 @@
 - [x] Lagre med localStorage
 
 TODO:
-- [] Legg til funksjonalitet der man kan oppdatere bøker.
-
+- [ ] Legg til funksjonalitet der man kan oppdatere bøker.
