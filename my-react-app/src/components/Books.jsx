@@ -11,7 +11,7 @@ function Books({ books, setBooks }) {
     <div id="books">
       {books.map((book, index) => {
         return (
-          <div key={index}>
+          <div className="book" key={index}>
             <Book
               name={book.name}
               publicationYear={book.publicationYear}
