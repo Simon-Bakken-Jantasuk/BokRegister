@@ -4,7 +4,23 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [books, setBooks] = useState([]);
+  const [books, setBooks] = useState([
+    {
+      name: "Sult",
+      publicationYear: 1890,
+      topic: "Eksistensialisme",
+    },
+    {
+      name: "Albertine",
+      publicationYear: 1886,
+      topic: "Realismen",
+    },
+    {
+      name: "Victoria",
+      publicationYear: 1898,
+      topic: "Kjærlighet",
+    },
+  ]);
 
   return (
     <div>
